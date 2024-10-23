@@ -1,0 +1,513 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+  
+
+}
+
+
+*{ scroll-behavior: smooth;}
+
+html{
+    --background: white;
+    --text: black;
+  }
+
+
+#invertButton {
+    margin-left: 120vh;
+
+}
+
+header {
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    align-items: center;
+    justify-content: center;
+ 
+
+ 
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.introducao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #53889D;
+    color: rgb(0, 0, 0);
+}
+
+.meunome {
+    text-align: left;
+}
+
+.meunome h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.meunome h3 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.meunome h2 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.imagem {
+    margin-left: 40px;
+}
+
+.imagem img {
+    width: 900px;
+    height: 900px;
+}
+
+#sobremim {
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #53889D;
+
+}
+
+.sobreee {
+    background-color: #ffffff;
+    height: 40vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+.sobreee h1 {
+    color: #1f6cab;
+    font-size: 3.7em;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+
+   
+}
+
+.sobreee h2 {
+    color: #1f6cab;
+    font-size: 3.7em;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -1.5vh;
+
+}
+
+
+.desciracao {
+    background-color: #53889D;
+    flex: 1;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desciracao h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.desciracao p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+.indentiskilss {
+    display: flex;
+    justify-content: space-between;
+    background-color: #53889D;
+    font-size: 1.5em;
+
+}
+
+.indentiskilss-dgfhg {
+    width: 30vh;
+    font-size: 4.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+
+}
+
+.indentiskilss-dgfhg h2 {
+    font-size: 70px;
+    margin-left: 63vh;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.charrrrr{
+    width: 450px;
+    margin-left: 53vh;
+  margin-top: 5vh;
+    color: #fff;
+    display: flex;
+
+    align-items: center;
+}
+.fimgaaa{
+    width: 100%;
+    margin-left: 53vh;
+    display: flex;
+    margin-top: 4vh;
+    
+}
+
+svg{
+    margin-left: 8vh;
+   
+}   
+
+.javaaaa{
+    width: 20%;
+    font-size: 20px;
+    margin-left: 50vh;
+    height: 100%;
+    color: #fff;
+    display: flex;
+
+    align-items: center;
+}
+
+.indentiskilss-dgfhg img {
+    width: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfoliooooooooo {
+    height: 50vh;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white
+}
+
+.portfoliooooooooo h1 {
+    font-size: 50px;
+    color: #1f6cab;
+    margin-bottom: 20px;
+}
+
+.portfoliooooooooo p {
+    font-size: 1.2em;
+    line-height: 1.5;
+
+ padding-left: 3vh;
+
+
+
+}
+
+#teste {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #53889D;
+}
+
+
+
+
+
+.container {
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    background-color: #53889D;
+    margin-top: 0;
+}
+
+h1 {
+    color: #000;
+    font-size: 2.5em;
+
+}
+
+.servicosss {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+  
+ 
+}
+
+.service-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 300px;
+}
+
+.service-box img {
+    width: 100px;
+    height: 10vh;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.service-box h2 {
+    font-size: 1.5em;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+padding-left: 7vh;
+
+}
+
+.service-box p {
+    font-size: 1.4em;
+    color: #333;
+}
+
+h5 {
+    color: #000000;
+    font-size: 3.5em;
+    text-align: left;
+    margin-left: 75vh;
+    background-color: #53889D;
+    margin-top:0;
+}
+
+
+
+
+
+
+.container h1 {
+    color: #000000;
+    font-size: 59px;
+
+}
+
+.container p {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px ;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.imagemmm {
+   width: 1400PX;
+   height: 300PX;
+   margin-left: 27vh;
+   display: flex;
+   justify-content: space-around;
+
+
+}
+
+.imagemmm>img{
+    width: 45%;
+    height: 100%;
+    
+}
+
+main{
+    background-color: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+ 
+
+}
+.meo{
+    width: 20%;
+    font-size: 20px;
+    background-color: #000000;
+    height: 100%;
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+main  b {
+ 
+  
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+   
+
+}
+
+.githhhh{
+    height: 50px;
+   
+    margin-left: 10px;
+   
+    
+}
+
+.darkmode .gfdhf {
+    background-color: rgb(255, 255, 255);
+}
+
+.darkmode .dsgbhrh{
+    color: #ffffff;
+}
+
+.darkmode .introducao{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.darkmode .jgtjhuryj{
+    color: #ffffff;
+}
+
+.darkmode .sobreee {
+    background-color: #000;
+}
+
+.darkmode .desciracao{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.darkmode .indentiskilss{
+    background-color: rgb(255, 255, 255);
+}
+
+.darkmode .portfoliooooooooo{
+    background-color: #000;
+}
+
+.darkmode .jgifhigj{
+    color: #fff;
+}
+
+.darkmode .gifdhioseiorudouh{
+    color: #fff;
+}
+
+.darkmode .hjthyjk{
+    color: white;
+}
+
+.darkmode #teste{
+    background-color: #000;
+}
+
+.darkmode .adhghihr{
+    color: #fff;
+}
+
+.darkmode .container{
+    background-color: #000000;
+}
+
+.darkmode .jiiijtht{
+    color: #ffffff;
+}
+
+.darkmode body{
+    background-color: #000;
+}
+
+.darkmode .i9grhte{
+    background-color: #000;
+}
+.darkmode h5{
+    background-color: #000;
+}
+.i9grhte{
+width: 100%;
+ height: 60vh;
+ background-color: #53889D;
+}
+
+
+.jiiijtht{
+    margin-top: 0;
+}
+.darkmode .gfjihtj{
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 400px) {
+    .dsgbhrh{
+        margin-left: 100vh;
+        height: 10vh;
+        
+    }
+    .gfdhf{
+        font: size 12px;
+    }
+
+    nav{
+        display: flex;
+        margin-left: -33vh;
+    }
+
+    .imagem{
+        margin-left: 1vh;
+    }
+}
+
